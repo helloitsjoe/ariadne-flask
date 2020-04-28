@@ -1,0 +1,21 @@
+type Query {
+  allBuildings: [Building]
+  allResidents: [Resident]
+  buildingById(_id: ID!): Building
+  residentById(_id: ID!): Resident
+}
+
+type Building {
+  id: ID!
+  buildYear: String!
+  name: String!
+  residents: [Resident]
+}
+
+type Resident {
+  id: ID!
+  name: String!
+  age: Int!
+  family: [Resident]
+  building: Building
+}

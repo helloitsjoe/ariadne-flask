@@ -1,0 +1,19 @@
+{
+  "buildings": [
+    {
+      "id": "1",
+      "buildYear": 1968,
+      "name": "Barfy Gardens"
+    },
+    {
+      "id": "2",
+      "buildYear": 2009,
+      "name": "Rascal Apartments"
+    },
+    {
+      "id": "3",
+      "buildYear": 1801,
+      "name": "Grimy Tenement"
+    }
+  ]
+}
